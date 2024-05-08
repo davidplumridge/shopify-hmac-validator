@@ -1,6 +1,6 @@
 # Shopify HMAC Validator
 
-A lightweight package to validate Shopify HMAC codes
+A lightweight package for validating Shopify HMAC codes for user and webhook requests.
 
 ## Usage
 
@@ -14,6 +14,6 @@ A lightweight package to validate Shopify HMAC codes
     const { isShopifyWebhookHmacValid } = require('shopify-hmac-validator')
     isShopifyWebhookHmacValid("my_secret", "full_query_string")
 
-## More examples
+### More examples
 
-See the repo __tests__ for more examples.
+See the __tests__ folder in the repo for more examples.

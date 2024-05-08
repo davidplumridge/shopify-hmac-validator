@@ -10,7 +10,11 @@
   "keywords": ["Shopify", "HMAC", "Validation", "Validator", "Webhook", "Installation"],
   "author": "David Plumridge",
   "license": "MIT",
-  "description": "",
+  "description": "A lightweight package for validating Shopify HMAC codes for user and webhook requests.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidplumridge/shopify-hmac-validator"
+  },
   "devDependencies": {
     "@babel/core": "^7.24.5",
     "@babel/preset-env": "^7.24.5",
